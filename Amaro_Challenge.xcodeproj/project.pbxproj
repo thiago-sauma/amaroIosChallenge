@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE795EDD26AEDCD9007F6585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE795EDC26AEDCD9007F6585 /* AppDelegate.swift */; };
+		BE795EDF26AEDCD9007F6585 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE795EDE26AEDCD9007F6585 /* SceneDelegate.swift */; };
+		BE795EE126AEDCD9007F6585 /* CatalogueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE795EE026AEDCD9007F6585 /* CatalogueViewController.swift */; };
+		BE795EE426AEDCD9007F6585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE795EE226AEDCD9007F6585 /* Main.storyboard */; };
+		BE795EE626AEDCDB007F6585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE795EE526AEDCDB007F6585 /* Assets.xcassets */; };
+		BE795EE926AEDCDB007F6585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE795EE726AEDCDB007F6585 /* LaunchScreen.storyboard */; };
+		BE795EF226AEDEA9007F6585 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE795EF126AEDEA9007F6585 /* Network.swift */; };
+		BE795EF526AEE616007F6585 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE795EF426AEE616007F6585 /* Store.swift */; };
+		BE795EF826AF1B55007F6585 /* CatalogueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE795EF726AF1B55007F6585 /* CatalogueViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE795ED926AEDCD9007F6585 /* Amaro_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amaro_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE795EDC26AEDCD9007F6585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE795EDE26AEDCD9007F6585 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE795EE026AEDCD9007F6585 /* CatalogueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewController.swift; sourceTree = "<group>"; };
+		BE795EE326AEDCD9007F6585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE795EE526AEDCDB007F6585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE795EE826AEDCDB007F6585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE795EEA26AEDCDB007F6585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE795EF126AEDEA9007F6585 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		BE795EF426AEE616007F6585 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		BE795EF726AF1B55007F6585 /* CatalogueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE795ED626AEDCD8007F6585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE795ED026AEDCD8007F6585 = {
+			isa = PBXGroup;
+			children = (
+				BE795EDB26AEDCD9007F6585 /* Amaro_Challenge */,
+				BE795EDA26AEDCD9007F6585 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE795EDA26AEDCD9007F6585 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE795ED926AEDCD9007F6585 /* Amaro_Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE795EDB26AEDCD9007F6585 /* Amaro_Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				BE795EF626AF1B2F007F6585 /* Catalogue */,
+				BE795EF326AEE5FB007F6585 /* Model */,
+				BE795EF026AEDE91007F6585 /* Services */,
+				BE795EDC26AEDCD9007F6585 /* AppDelegate.swift */,
+				BE795EDE26AEDCD9007F6585 /* SceneDelegate.swift */,
+				BE795EE226AEDCD9007F6585 /* Main.storyboard */,
+				BE795EE526AEDCDB007F6585 /* Assets.xcassets */,
+				BE795EE726AEDCDB007F6585 /* LaunchScreen.storyboard */,
+				BE795EEA26AEDCDB007F6585 /* Info.plist */,
+			);
+			path = Amaro_Challenge;
+			sourceTree = "<group>";
+		};
+		BE795EF026AEDE91007F6585 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BE795EF126AEDEA9007F6585 /* Network.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BE795EF326AEE5FB007F6585 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE795EF426AEE616007F6585 /* Store.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE795EF626AF1B2F007F6585 /* Catalogue */ = {
+			isa = PBXGroup;
+			children = (
+				BE795EE026AEDCD9007F6585 /* CatalogueViewController.swift */,
+				BE795EF726AF1B55007F6585 /* CatalogueViewModel.swift */,
+			);
+			path = Catalogue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE795ED826AEDCD8007F6585 /* Amaro_Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE795EED26AEDCDB007F6585 /* Build configuration list for PBXNativeTarget "Amaro_Challenge" */;
+			buildPhases = (
+				BE795ED526AEDCD8007F6585 /* Sources */,
+				BE795ED626AEDCD8007F6585 /* Frameworks */,
+				BE795ED726AEDCD8007F6585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amaro_Challenge;
+			productName = Amaro_Challenge;
+			productReference = BE795ED926AEDCD9007F6585 /* Amaro_Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE795ED126AEDCD8007F6585 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BE795ED826AEDCD8007F6585 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = BE795ED426AEDCD8007F6585 /* Build configuration list for PBXProject "Amaro_Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE795ED026AEDCD8007F6585;
+			productRefGroup = BE795EDA26AEDCD9007F6585 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE795ED826AEDCD8007F6585 /* Amaro_Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE795ED726AEDCD8007F6585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE795EE926AEDCDB007F6585 /* LaunchScreen.storyboard in Resources */,
+				BE795EE626AEDCDB007F6585 /* Assets.xcassets in Resources */,
+				BE795EE426AEDCD9007F6585 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE795ED526AEDCD8007F6585 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE795EF826AF1B55007F6585 /* CatalogueViewModel.swift in Sources */,
+				BE795EF526AEE616007F6585 /* Store.swift in Sources */,
+				BE795EE126AEDCD9007F6585 /* CatalogueViewController.swift in Sources */,
+				BE795EDD26AEDCD9007F6585 /* AppDelegate.swift in Sources */,
+				BE795EF226AEDEA9007F6585 /* Network.swift in Sources */,
+				BE795EDF26AEDCD9007F6585 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE795EE226AEDCD9007F6585 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE795EE326AEDCD9007F6585 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE795EE726AEDCDB007F6585 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE795EE826AEDCDB007F6585 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE795EEB26AEDCDB007F6585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE795EEC26AEDCDB007F6585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE795EEE26AEDCDB007F6585 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Amaro_Challenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ThiagoTeam.Amaro-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE795EEF26AEDCDB007F6585 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Amaro_Challenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ThiagoTeam.Amaro-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE795ED426AEDCD8007F6585 /* Build configuration list for PBXProject "Amaro_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE795EEB26AEDCDB007F6585 /* Debug */,
+				BE795EEC26AEDCDB007F6585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE795EED26AEDCDB007F6585 /* Build configuration list for PBXNativeTarget "Amaro_Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE795EEE26AEDCDB007F6585 /* Debug */,
+				BE795EEF26AEDCDB007F6585 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE795ED126AEDCD8007F6585 /* Project object */;
+}
